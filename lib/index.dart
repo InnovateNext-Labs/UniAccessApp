@@ -16,3 +16,4 @@ export '/pages/notification_screen/notification_screen_widget.dart'
     show NotificationScreenWidget;
 export '/pages/profile_screen/profile_screen_widget.dart'
     show ProfileScreenWidget;
+export '/pages/login_screen/login_screen_widget.dart' show LoginScreenWidget;

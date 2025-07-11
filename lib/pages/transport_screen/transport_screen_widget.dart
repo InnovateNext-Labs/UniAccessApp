@@ -876,7 +876,6 @@ class _TransportScreenWidgetState extends State<TransportScreenWidget> {
                         text: 'Download Pass',
                         icon: Icon(
                           Icons.download_rounded,
-                          color: Colors.white,
                           size: 15.0,
                         ),
                         options: FFButtonOptions(
@@ -885,6 +884,7 @@ class _TransportScreenWidgetState extends State<TransportScreenWidget> {
                           padding: EdgeInsets.all(8.0),
                           iconPadding: EdgeInsetsDirectional.fromSTEB(
                               0.0, 0.0, 0.0, 0.0),
+                          iconColor: Colors.white,
                           color: FlutterFlowTheme.of(context).primary,
                           textStyle:
                               FlutterFlowTheme.of(context).titleSmall.override(
